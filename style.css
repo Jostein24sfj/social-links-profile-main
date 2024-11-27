@@ -1,5 +1,5 @@
 * {
-  /* box-sizing: border-box; */
+  box-sizing: border-box;
 }
 
 body {
@@ -15,7 +15,7 @@ body {
 .card {
   color: white;
   background-color: #1f1f1f;
-  padding: 32px;
+  padding: 38px 36px;
   text-align: center;
   border: 1px solid black;
   border-radius: 15px;
@@ -24,8 +24,8 @@ body {
   display: grid;
   justify-content: center;
   align-items: center;
-  width: 375px;
-  height: 620px;
+  width: 448px;
+  /* height: 620px; */
 }
 
 img {
@@ -64,12 +64,12 @@ button {
   padding: 8px 0;
   color: white;
   background-color: #333333;
-  width: 325px;
+  width: 100%;
   height: 50px;
   border: none;
   border-radius: 8px;
   /* justify-self: center; */
-  margin-inline: auto;
+  /* margin-inline: auto; */
   font-weight: 700;
 }
 
